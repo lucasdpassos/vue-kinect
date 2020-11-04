@@ -1,28 +1,35 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app>  
+    <v-img src="../src/assets/codepacklogo.png" class="logo1" style="max-width:50px;" />
+    <v-main>
+      <Card1 />
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Card1 from './components/Card1'
+
+
 
 export default {
   name: 'App',
+
   components: {
-    HelloWorld
-  }
-}
+    Card1,
+  },
+
+  data: () => ({
+    //
+  }),
+};
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
+<style scoped>
+
+.logo1 {
+  max-width: 400px;
 }
+
 </style>
