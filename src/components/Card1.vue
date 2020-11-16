@@ -3,11 +3,11 @@
     <kinesis-element :strength="20" type="depth" class="card">
         <div class="sneaker">
             <div class="circle"></div>
-            <img src="../assets/codepacklogo.png" alt="zelda" class="wolf1">
+            <img src="../assets/codepacklogo.png" alt="build" class="wolf1">
         </div>
         <div class="info">
-            <h1 class="title">Code Pack</h1>
-            <h3>É uma empresa de desenvolvimento de Aplicações Web e Mobile, que utiliza como base de produção o Javascript moderno e o que há de melhor em tecnologia de ponta</h3>
+            <h1 class="title">Apartamentos no Leblon</h1>
+            <h3>Lindos apartamentos decorados, localizados no centro do Leblon, próximos a mercados, escolas, serviços públicos, ponto de ônibus na porta</h3>
 
         </div>
     </kinesis-element>
@@ -68,11 +68,11 @@ body {
 }
 
 .circle {
-    width: 15rem;
-    height: 15rem;
+    width: 25rem;
+    height: 20rem;
     background: linear-gradient(to right,
-            rgba(0, 0, 0, 0.75),
-            rgba(0, 0, 0, 0.75));
+            rgba(3, 255, 234, 0.75),
+            rgba(1, 207, 70, 0.842));
     position: absolute;
     border-radius: 50%;
     z-index: 1;

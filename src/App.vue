@@ -1,9 +1,9 @@
 <template>
-<v-app>
-    <v-img src="../src/assets/codepacklogo2.png" class="logo1" style="width:50px;height:20px;" />
+<v-app id='app1'>
+   
     <v-main>
         <Card1 />
-        <Menu />
+        
     </v-main>
     <Footer />
 </v-app>
@@ -12,15 +12,15 @@
 <script>
 import Card1 from './components/Card1'
 import Footer from './components/Footer'
-import Menu from './components/Menu'
+
 
 export default {
     name: 'App',
 
     components: {
         Card1,
-        Footer,
-        Menu
+        Footer
+        
     },
 
     data: () => ({
@@ -32,5 +32,11 @@ export default {
 <style scoped>
 .logo1 {
     max-width: 400px;
+}
+
+#app1 {
+    background: url('../src/assets/big-city.jpg');
+    background-size: 3000px 1000px;
+     background-repeat: no-repeat;
 }
 </style>
